@@ -31,10 +31,22 @@ li:last-child {
 	border-bottom-color: yellow;
 	border-bottom-style: solid;
 	border-bottom-width: 5px;
+	margin: 0px;
+}
+
+.subtitle {
+	clear:both;
+	text-align: center;
+	background-color: #D3D3D3;
+	padding: 20px;
+	margin: 0px;
+	font-size: 34px;
+	font-style: italic;
 }
 
 .joke {
-	clear:both;
+	color:#7e7e7e;
+	text-decoration: strikethrough;
 }
 
 .joke-clarification {
@@ -42,13 +54,16 @@ li:last-child {
 }
 
 .hero-image-section {
-	background-url: url("images/coworking.jpg");
-	display:block;
+	background-image: url("images/coworking.jpg");
 }
 
 .floating-desc {
 	float:right;
 	display:block;
+}
+
+.clearfix {
+	clear:both;
 }
 
 h2 {
@@ -80,7 +95,8 @@ button {
 }
 
 .info-section {
-
+	float:left;
+	
 }
 
 
