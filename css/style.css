@@ -1,17 +1,40 @@
 h1 {
-
+	color:yellow;
+	font-size: 40px;
+	padding: 30px 0px 0px 30px;
 }
 
-ol {
 
+li {
+	float:left;
+	color:white;
+	font-size: 28px;
+	list-style-type: none;
+	padding: 0px 20px;
 }
 
-header {
+.core-nav {
+	text-transform: uppercase;
+}
 
+li:first-child {
+	padding-left: 300px;
+}
+
+li:last-child {
+	padding-right: 50px;
+}
+
+.navigation-header {
+	background-color:black;
+	height: 150px;
+	border-bottom-color: yellow;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
 }
 
 .joke {
-
+	clear:both;
 }
 
 .joke-clarification {
