@@ -1,5 +1,6 @@
 body {
 	margin: 0% 15%;
+	background-color: #D3D3D3;
 }
 
 h1 {
@@ -98,14 +99,18 @@ button {
 	padding: 10px 45px;
 	text-transform: uppercase;
 	background-color: yellow;
+	border-radius: 10px;
 }
 
 .grey-button {
-	background-color: gray;
+	background-color: #D3D3D3;
+	box-shadow: gray;
 }
 
 .information {
-
+	background-color: white;
+	height: 250px;
+	margin: 0;
 }
 
 .info-section {
@@ -119,6 +124,7 @@ footer {
 	color: white;
 	height: 40px;
 	padding-left: 150px;
+	margin: 0;
 }
 
 
