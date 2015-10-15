@@ -57,7 +57,9 @@ li:last-child {
 }
 
 .joke-clarification {
-
+	border-bottom-color: yellow;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
 }
 
 .hero-image-section {
