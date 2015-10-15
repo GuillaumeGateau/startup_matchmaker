@@ -72,9 +72,13 @@ li:last-child {
 .floating-desc {
 	float:right;
 	width: 250px;
-	padding:20px;
+	height: 95%;
 	margin-right: 25%;
-	background-color: gray;
+	background-color: rgba(248,248,248, .7);
+	box-shadow: 2px 2px 3px gray;
+	vertical-align: middle;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .clearfix {
@@ -110,7 +114,7 @@ button {
 .information {
 	background-color: white;
 	height: 250px;
-	margin: 0;
+	margin: 0px;
 }
 
 .info-section {
