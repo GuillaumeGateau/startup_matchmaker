@@ -1,3 +1,7 @@
+body {
+	margin: 0% 15%;
+}
+
 h1 {
 	color:yellow;
 	font-size: 40px;
@@ -12,9 +16,9 @@ h2 {
 li {
 	float:left;
 	color:white;
-	font-size: 28px;
+	font-size: 18px;
 	list-style-type: none;
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 .core-nav {
@@ -59,7 +63,7 @@ li:last-child {
 .hero-image-section {
 	background-image: url("../images/coworking.jpg");
 	background-repeat: no-repeat;
-    height: 400px;
+    height: 644px;
 }
 
 .floating-desc {
@@ -104,9 +108,16 @@ button {
 
 .info-section {
 	float:left;
-
+	width: 250px;
 }
 
+footer {
+	clear:both;
+	background-color: black;
+	color: white;
+	height: 40px;
+	padding-left: 150px;
+}
 
 
 
